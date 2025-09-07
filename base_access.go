@@ -11,7 +11,7 @@ type AccessFilter func(devid uint8, userdata any) bool
 // 检查请求的寄存器地址是否运行读/写
 type AccessCheck func(regaddr, reglen uint16, isRead bool, userdata any) bool
 
-/// Modbus-数据访问控制器
+// / Modbus-数据访问控制器
 type groAccess struct {
 	UserData      any          // 用户数据
 	FilterDevID   AccessFilter // 过滤请求的设备ID
