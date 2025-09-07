@@ -1,3 +1,8 @@
+// Copyright 2025 The Gromb Authors. All rights reserved.
+//
+// Use of this source code is governed by an MIT-style
+// license that can be found in the LICENSE file.
+
 package gromb
 
 import (
@@ -6,9 +11,9 @@ import (
 
 //	<--------------- Max(1) -------------->
 //	<---- Buffer Size ---->
-//	+----------+----------+---------------+
+//	+----------+----------+---------------+ 
 //	|   Last   |   This   |   Available   |
-//	+----------+----------+---------------+
+//	+----------+----------+---------------+ 
 //	     |          |             |
 //	    (2)        (3)           (4)
 //

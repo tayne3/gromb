@@ -1,7 +1,12 @@
+// Copyright 2025 The Gromb Authors. All rights reserved.
+//
+// Use of this source code is governed by an MIT-style
+// license that can be found in the LICENSE file.
+
 package gromb
 
 //	<--------------------------------- MODBUS Ascii ADU -------------------------------->
-//                              <--------- MODBUS PDU -------->
+//	                            <--------- MODBUS PDU -------->
 //	+-------------+-------------+---------------+-------------+------------+------------+
 //	| Start       | Address     | Function Code | Data        | LRC        | End        |
 //	| 1 Byte      | 1 Byte * 2  | 1 Byte * 2    | n Bytes * 2 | 1 Byte * 2 | 2 Byte     |
